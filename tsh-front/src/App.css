@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background: linear-gradient(
+      179.78deg,
+      #55dcf8 17.3%,
+      #aeff9c 36.34%,
+      #dade96 55.14%,
+      #ffc59c 70.46%,
+      #ffa0e0 95.66%
+    ),
+    #d9d9d9;
+}
+a {
+  text-decoration: none;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+  font-weight: bold;
+  color: "#000";
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@font-face {
+  font-family: 'Boorsok';
+  src: local('Boorsok'), url(./Components/assets/boorsok.ttf) format('truetype');
+}
+
+.loader {
+  overflow: hidden;
+  margin: 0 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000000000 !important;
+  color: white;
+}

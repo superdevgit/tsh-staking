@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.mainnet]
+daddy_staking_contract = "CZDNp3c2VPHXmcpd9GpU8dBaTFQayLSgdcefLyd8JfbK"
+tsh_staking_contract = "7YtikgueuX86kVuUjuqCki3LKt5dnNoTtMdGfrB2Hk7b"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://orbital-lingering-pond.solana-mainnet.quiknode.pro/de5c3bde1794fe765c51fe13fc691f39921060db/"
+wallet = "test-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

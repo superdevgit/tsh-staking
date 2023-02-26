@@ -1,0 +1,3 @@
+export const NEXT_PUBLIC_SOLANA_NETWORK = 'mainnet';
+export const NEXT_PUBLIC_STAKE_CONTRACT_ID = 'CZDNp3c2VPHXmcpd9GpU8dBaTFQayLSgdcefLyd8JfbK';
+export const TOKEN_DECIMAL = 1000000000
